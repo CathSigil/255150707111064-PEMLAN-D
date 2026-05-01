@@ -160,10 +160,10 @@ lbHasil.setBounds(90, 210, 50, 20);
         if (e.getSource() == btnTampil) {
             area.setText(
                 "HASIL NILAI SEMUA MATA KULIAH\n\n" +
-                "ASD : " + nASD + "\n" +
-                "Pemlan : " + nPemlan + "\n" +
-                "Matkomlan : " + nMatkomlan + "\n" +
-                "Probstat : " + nProbstat
+                "ASD          : " + nASD + "\n" +
+                "Pemlan       : " + nPemlan + "\n" +
+                "Matkomlan    : " + nMatkomlan + "\n" +
+                "Probstat     : " + nProbstat
             );
         }
     }
