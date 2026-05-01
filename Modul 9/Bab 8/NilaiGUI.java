@@ -30,41 +30,41 @@ public class NilaiGUI extends Frame implements ActionListener {
         add(cbASD); add(cbPemlan); add(cbMatkomlan); add(cbProbstat);
         cbASD.addItemListener(new ItemListener() {
     public void itemStateChanged(ItemEvent e) {
-        txtTugas.setText("0");
-        txtKuis.setText("0");
-        txtUTS.setText("0");
-        txtUAS.setText("0");
-        txtHasil.setText("0");
+        txtTugas.setText("");
+        txtKuis.setText("");
+        txtUTS.setText("");
+        txtUAS.setText("");
+        txtHasil.setText("");
     }
 });
 
 cbPemlan.addItemListener(new ItemListener() {
     public void itemStateChanged(ItemEvent e) {
-        txtTugas.setText("0");
-        txtKuis.setText("0");
-        txtUTS.setText("0");
-        txtUAS.setText("0");
-        txtHasil.setText("0");
+        txtTugas.setText("");
+        txtKuis.setText("");
+        txtUTS.setText("");
+        txtUAS.setText("");
+        txtHasil.setText("");
     }
 });
 
 cbMatkomlan.addItemListener(new ItemListener() {
     public void itemStateChanged(ItemEvent e) {
-        txtTugas.setText("0");
-        txtKuis.setText("0");
-        txtUTS.setText("0");
-        txtUAS.setText("0");
-        txtHasil.setText("0");
+        txtTugas.setText("");
+        txtKuis.setText("");
+        txtUTS.setText("");
+        txtUAS.setText("");
+        txtHasil.setText("");
     }
 });
 
 cbProbstat.addItemListener(new ItemListener() {
     public void itemStateChanged(ItemEvent e) {
-        txtTugas.setText("0");
-        txtKuis.setText("0");
-        txtUTS.setText("0");
-        txtUAS.setText("0");
-        txtHasil.setText("0");
+        txtTugas.setText("");
+        txtKuis.setText("");
+        txtUTS.setText("");
+        txtUAS.setText("");
+        txtHasil.setText("");
     }
 });
         Label lbTugas = new Label("Tugas");
